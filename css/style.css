@@ -30,32 +30,29 @@ li {
   padding: 20px 0;
 }
 
-.star i {
+[class*="star-"] i {
   padding: 20px 0;
-  display: block;
-  position: relative;
+  font-size: 18px;
 }
 
-.star i:before {
-  position: absolute;
-  display: block;
+.star-white::before,
+.star-white::after {
+  display: inline-block;
   content: "";
-  background-color: #fff;
-  width: 150px;
-  height: 2px;
-  top: 50%;
-  left: 50%;
+  border-top: 2px solid #fff;
+  width: 100px;
+  margin: 0 20px;
+  transform: translateY(-5px);
 }
 
-.star i:after {
-  position: absolute;
-  display: block;
+.star-black::before,
+.star-black::after {
+  display: inline-block;
   content: "";
-  background-color: #fff;
-  width: 150px;
-  height: 2px;
-  top: 50%;
-  right: 50%;
+  border-top: 2px solid #000;
+  width: 100px;
+  margin: 0 20px;
+  transform: translateY(-5px);
 }
 
 .color-green {

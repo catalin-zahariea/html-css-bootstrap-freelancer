@@ -5,11 +5,34 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
-  text-transform: uppercase;
+/* Random */
+.small-wrapper {
+  width: 80%;
+  margin: auto;
 }
 
-/* Random */
+.section {
+  padding: 50px 0;
+}
+
+.section-green {
+  background-color: #19b89a;
+}
+
+.section-title {
+  text-align: center;
+  color: #000;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.section-title h2 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
 .circle-border {
   display: inline-block;
   padding: 15px;
@@ -31,7 +54,7 @@ li {
 }
 
 [class*="star-"] i {
-  padding: 20px 0;
+  padding: 30px 0;
   font-size: 18px;
 }
 
@@ -118,63 +141,16 @@ nav {
 }
 
 .portfolio-item {
-  border-radius: 10px;
-  padding: 20px 50px;
-  text-align: center;
-  margin-bottom: 20px;
+  height: 200px;
+  margin-bottom: 30px;
+  border-radius: 5px;
   overflow: hidden;
-  position: relative;
-  height: 200px;
-}
-
-.portfolio .section-title {
-  color: black;
-  text-align: center;
-}
-
-.portfolio-item img {
-  height: 200px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.item-1 {
-  background-color: #ba4b64;
-}
-
-.item-2 {
-  background-color: #1da4b7;
-}
-
-.item-3 {
-  background-color: #140f10;
-}
-
-.item-4 {
-  background-color: #1c83c2;
-}
-
-.item-5 {
-  background-color: #0d38b6;
-}
-
-.item-6 {
-  background-color: #ccb2a4;
 }
 
 /* About Section */
 
-.about {
-  background-color: #19b899;
-  text-align: center;
-  color: #fff;
-  padding: 50px 0;
-}
-
-.about p {
-  text-align: left;
+.about-content {
+  padding-bottom: 30px;
 }
 
 /* Contact Me Section */

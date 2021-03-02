@@ -6,6 +6,12 @@ h1 {
 }
 
 /* Random */
+.btn_download {
+  background-color: #19b89a;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
 .small-wrapper {
   width: 80%;
   margin: auto;
@@ -43,6 +49,7 @@ h1 {
 
 ul {
   list-style: none;
+  margin: 0;
 }
 
 li {
@@ -50,7 +57,7 @@ li {
 }
 
 .padding-top-bottom {
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 [class*="star-"] i {
@@ -91,8 +98,9 @@ nav {
   background-color: #2c3d51;
   color: #fff;
 }
+
 .header-nav-logo {
-  padding: 20px 10px 10px 10px;
+  padding: 0 10px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -101,7 +109,7 @@ nav {
 .header-nav-burger-menu,
 .header-nav-main-menu {
   text-align: right;
-  padding: 20px 10px 10px 10px;
+  padding: 0 10px;
 }
 
 .header-nav-main-menu li:nth-child(1n + 2) {
@@ -136,7 +144,6 @@ nav {
 
 /* Portfolio Section */
 .portfolio-item {
-  height: 200px;
   margin-bottom: 30px;
   border-radius: 5px;
   overflow: hidden;
@@ -193,3 +200,10 @@ footer {
 
 /* FOOTER END */
 /* ------------------------------------------------------------------- */
+/* HOVER */
+
+.btn_download:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #fff;
+  color: #39546e;
+}

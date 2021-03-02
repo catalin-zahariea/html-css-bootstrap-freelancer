@@ -89,6 +89,10 @@ li {
   color: #19b89a;
 }
 
+.color-dark {
+  color: #2c3d51;
+}
+
 /* COMMON END */
 /* ------------------------------------------------------------------- */
 /* HEADER */
@@ -170,7 +174,7 @@ nav {
   padding: 0;
   box-shadow: none;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 15px;
 }
 
@@ -232,4 +236,24 @@ footer {
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid #fff;
   color: #39546e;
+}
+
+.header-nav-main-menu a:hover {
+  color: #39546e;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.circle-border:hover {
+  display: inline-block;
+  color: #2c3d51;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: relative;
 }

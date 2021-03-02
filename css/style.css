@@ -162,6 +162,32 @@ nav {
   text-align: center;
 }
 
+.contact-me-form {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.contact-me-form::-webkit-input-placeholder {
+  /* Edge */
+  color: #39546e;
+}
+
+.contact-me-form:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #39546e;
+}
+
+.contact-me-form::placeholder {
+  color: #39546e;
+}
+
 /* MAIN END */
 /* ------------------------------------------------------------------- */
 /* FOOTER */

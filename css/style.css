@@ -12,6 +12,12 @@ h1 {
   color: #fff;
 }
 
+.btn_send {
+  background-color: #19b89a;
+  border: 1px solid #19b89a;
+  color: #fff;
+}
+
 .small-wrapper {
   width: 80%;
   margin: auto;
@@ -233,14 +239,14 @@ footer {
 /* HOVER */
 
 .btn_download:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
   border: 1px solid #fff;
   color: #39546e;
 }
 
 .header-nav-main-menu a:hover {
   color: #39546e;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
   border: 1px solid #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -251,9 +257,15 @@ footer {
 .circle-border:hover {
   display: inline-block;
   color: #2c3d51;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
   padding: 15px;
   border: 1px solid white;
   border-radius: 50%;
   position: relative;
+}
+
+.btn_send:hover {
+  background-color: rgba(25, 184, 154, 0.75);
+  border: 1px solid #19b89a;
+  color: #fff;
 }

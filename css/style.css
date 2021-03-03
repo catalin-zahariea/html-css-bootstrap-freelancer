@@ -6,6 +6,10 @@ h1 {
 }
 
 /* Random */
+body {
+  min-width: 320px;
+}
+
 .btn_download {
   background-color: #19b89a;
   border: 1px solid #fff;
@@ -47,7 +51,8 @@ h1 {
 
 .circle-border {
   display: inline-block;
-  padding: 15px;
+  width: 35px;
+  height: 35px;
   border: 1px solid white;
   border-radius: 50%;
   position: relative;
@@ -76,7 +81,7 @@ li {
   display: inline-block;
   content: "";
   border-top: 2px solid #fff;
-  width: 100px;
+  width: 50px;
   margin: 0 20px;
   transform: translateY(-5px);
 }
@@ -86,7 +91,7 @@ li {
   display: inline-block;
   content: "";
   border-top: 2px solid #000;
-  width: 100px;
+  width: 50px;
   margin: 0 20px;
   transform: translateY(-5px);
 }
@@ -223,14 +228,12 @@ footer {
   padding-bottom: 10px;
 }
 
-.footer-social i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+footer a {
+  line-height: 35px;
+  color: #fff;
 }
 
-.footer-social .circle-border:nth-child(1n + 2) {
+footer li:nth-child(1n + 2) {
   margin-left: 10px;
 }
 
@@ -255,13 +258,9 @@ footer {
 }
 
 .circle-border:hover {
-  display: inline-block;
   color: #2c3d51;
   background-color: rgba(255, 255, 255, 0.75);
-  padding: 15px;
   border: 1px solid white;
-  border-radius: 50%;
-  position: relative;
 }
 
 .btn_send:hover {
